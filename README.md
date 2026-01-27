@@ -25,7 +25,7 @@ Tools for extracting chemical sensory data
 本项目代码基于虚拟环境的状态下，建议直接使用本项目的虚拟环境代码
 
 ```
-# 1. 创建名为 venv 的虚拟环境
+# 1. 创建名为 myenv 的虚拟环境
 python -m venv myenv
 
 # 2. 激活虚拟环境 (Windows)
