@@ -22,51 +22,48 @@ Tools for extracting chemical sensory data
 
 ## 使用方法 (Usage)
 
-零、安装依赖：
+#安装依赖：
     ```bash
     pip install -r requirements.txt
     ```
-一、根据cas号和计算出的保留指数查找标准保留指数
- 你的 Excel 文件名 (必须带后缀, 如 .xlsx)
-INPUT_FILE = "data.xlsx" 
+#功能一、根据cas号和计算出的保留指数查找标准保留指数
+你的excel文件名= "data.xlsx" 
 
-# Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
+Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
 COL_CAS = "CAS Number"
 
-# Excel 中存放 计算保留指数 的列名
+Excel 中存放 计算保留指数 的列名
 COL_CALC_RI = "Calculated RI"
 
-# 结果将写入的新列名
+结果将写入的新列名
 COL_RESULT = "NIST RI"
 
 双击start1.bat
 
-二、根据名称查找cas号
-# 你的 Excel 文件名
-INPUT_FILE = "name.xlsx" 
+#功能二、根据名称查找cas号
+你的 Excel 文件名 = "name.xlsx" 
 
-# Excel 中存放 物质名称 的列名 (请确保和Excel里一致)
+Excel 中存放 物质名称 的列名 (请确保和Excel里一致)
 COL_NAME = "Name"
 
-# 结果将写入的新列名
+结果将写入的新列名
 COL_RESULT = "Found CAS"
 
 双击start2.bat
 
-三、根据cas号查找中英文名称，气味，水中的嗅觉阈值
-#你的excel文件名
-INPUT_FILE = "max.xlsx"
+#功能三、根据cas号查找中英文名称，气味，水中的嗅觉阈值
+你的excel文件名 = "max.xlsx"
 
-#Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
+Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
 COL_CAS = "CAS Number"
 
 双击start3.bat
 
-四、根据cas号查找嗅觉阈值，气味，香型（自带手动防人机验证）
-#你的excel文件名
+#功能四、根据cas号查找嗅觉阈值，气味，香型（自带手动防人机验证）
+你的excel文件名
 INPUT_FILE = "Odor.xlsx"
 
-#Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
+Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
 COL_CAS = "CAS Number"
 
 双击start4.bat
