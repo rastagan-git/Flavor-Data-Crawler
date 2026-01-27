@@ -23,9 +23,9 @@ Tools for extracting chemical sensory data
 ## 使用方法 (Usage)
 
 # 安装依赖：
-    ```
+    
     pip install -r requirements.txt
-    ```
+   
 # 功能一、根据cas号和计算出的保留指数查找标准保留指数
 你的excel文件名= "data.xlsx" 
 
