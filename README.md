@@ -67,3 +67,8 @@ Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
 COL_CAS = "CAS Number"
 
 双击start4.bat
+
+## 信息来源网站
+https://webbook.nist.gov/chemistry/
+https://mffi.sjtu.edu.cn/database/search?value=Propanal%2C+2-methyl-&keyword=all
+https://www.chemicalbook.com/ProductIndex.aspx
