@@ -86,3 +86,6 @@ COL_CAS = "CAS Number"
 https://webbook.nist.gov/chemistry/
 https://mffi.sjtu.edu.cn/database/search?value=Propanal%2C+2-methyl-&keyword=all
 https://www.chemicalbook.com/ProductIndex.aspx
+
+## 注意事项
+本项目仅供学习参考，禁止用于商业用途，合理使用工具，不要给网站服务器带来太多负担
