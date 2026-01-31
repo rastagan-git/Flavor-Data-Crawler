@@ -21,7 +21,7 @@ Tools for extracting chemical sensory data
 * Requests
 
 ## 使用方法 (Usage)
-# 建立虚拟环境
+### 建立虚拟环境
 本项目代码基于虚拟环境的状态下，建议直接使用本项目的虚拟环境代码
 
 ```
@@ -35,11 +35,12 @@ myenv\Scripts\activate
 # source myenv/bin/activate
 ```
 
-# 安装依赖：
+### 安装依赖：
     
     pip install -r requirements.txt
-   
-# 功能一、根据cas号和计算出的保留指数查找标准保留指数
+    
+
+### 功能一、根据cas号和计算出的保留指数查找标准保留指数
 你的excel文件名= "data.xlsx" 
 
 Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
@@ -53,7 +54,7 @@ COL_RESULT = "NIST RI"
 
 双击start1.bat
 
-# 功能二、根据名称查找cas号
+### 功能二、根据名称查找cas号
 你的 Excel 文件名 = "name.xlsx" 
 
 Excel 中存放 物质名称 的列名 (请确保和Excel里一致)
@@ -64,7 +65,7 @@ COL_RESULT = "Found CAS"
 
 双击start2.bat
 
-# 功能三、根据cas号查找中英文名称，气味，水中的嗅觉阈值
+### 功能三、根据cas号查找中英文名称，气味，水中的嗅觉阈值
 你的excel文件名 = "max.xlsx"
 
 Excel 中存放 CAS 号的列名 (请确保Excel里第一行是列名)
@@ -72,7 +73,7 @@ COL_CAS = "CAS Number"
 
 双击start3.bat
 
-# 功能四、根据cas号查找嗅觉阈值，气味，香型（自带手动防人机验证）
+### 功能四、根据cas号查找嗅觉阈值，气味，香型（自带手动防人机验证）
 你的excel文件名
 INPUT_FILE = "Odor.xlsx"
 
